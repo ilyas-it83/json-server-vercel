@@ -1,9 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "patients_registration": [
+    {
+      "patient_id": "P001",
+      "name": "John Doe",
+      "dob": "1985-05-15",
+      "gender": "male",
+      "contact": {
+        "phone": "+1234567890",
+        "email": "[email protected]"
+      },
+      "insurance": "XYZ Health Plan"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "doctor_profile": [
+    {
+      "doctor_id": "D001",
+      "name": "Dr. Jane Smith",
+      "specialization": "Cardiology",
+      "schedule": [
+        {
+          "day": "Monday",
+          "start_time": "09:00",
+          "end_time": "17:00"
+        }
+      ],
+      "available_slots": [
+      {
+        "date": "2025-02-15",
+        "slots": ["09:00-09:30", "10:00-10:30"]
+      }
+    ]
+    }
   ],
-  "profile": { "name": "typicode" }
+  "appointment_booking": [
+    {
+      "appointment_id": "A001",
+      "patient_id": "P001",
+      "doctor_id": "D001",
+      "date": "2025-02-15",
+      "time_slot": "10:00-10:30",
+      "service_type": "Consultation",
+      "status": "confirmed"
+    }
+  ]
 }
