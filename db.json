@@ -10,8 +10,7 @@
         "email": "[email protected]"
       },
       "insurance": "XYZ Health Plan"
-    }
-  ],
+    }],
   "doctor_profile": [
     {
       "doctor_id": "D001",
@@ -30,8 +29,7 @@
           "slots": ["09:00-09:30", "10:00-10:30"]
         }
       ]
-      }
-    },
+      },
     {
       "doctor_id": "D002",
       "name": "Dr. John Williams",
@@ -266,6 +264,48 @@
     "name": "Hillside Clinic",
     "address": "707 Aspen St, Hillside",
     "phone": "+1234567800"
+  }
+],
+"healthcare_spealization": [
+  {
+    "specialization_id": "S001",
+    "name": "Cardiology"
+  },
+  {
+    "specialization_id": "S002",
+    "name": "Neurology"
+  },
+  {
+    "specialization_id": "S003",
+    "name": "Pediatrics"
+  },
+  {
+    "specialization_id": "S004",
+    "name": "Orthopedics"
+  },
+  {
+    "specialization_id": "S005",
+    "name": "Dermatology"
+  },
+  {
+    "specialization_id": "S006",
+    "name": "Gastroenterology"
+  },
+  {
+    "specialization_id": "S007",
+    "name": "Ophthalmology"
+  },
+  {
+    "specialization_id": "S008",
+    "name": "Psychiatry"
+  },
+  {
+    "specialization_id": "S009",
+    "name": "Endocrinology"
+  },
+  {
+    "specialization_id": "S010",
+    "name": "Rheumatology"
   }
 ]
 }
