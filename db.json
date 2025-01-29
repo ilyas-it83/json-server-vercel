@@ -25,11 +25,174 @@
         }
       ],
       "available_slots": [
-      {
-        "date": "2025-02-15",
-        "slots": ["09:00-09:30", "10:00-10:30"]
+        {
+          "date": "2025-02-15",
+          "slots": ["09:00-09:30", "10:00-10:30"]
+        }
+      ]
       }
-    ]
+    },
+    {
+      "doctor_id": "D002",
+      "name": "Dr. John Williams",
+      "specialization": "Neurology",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "start_time": "10:00",
+          "end_time": "18:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-16",
+          "slots": ["10:00-10:30", "11:00-11:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D003",
+      "name": "Dr. Emily Johnson",
+      "specialization": "Pediatrics",
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "start_time": "08:00",
+          "end_time": "16:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-17",
+          "slots": ["08:00-08:30", "09:00-09:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D004",
+      "name": "Dr. Michael Brown",
+      "specialization": "Orthopedics",
+      "schedule": [
+        {
+          "day": "Thursday",
+          "start_time": "09:00",
+          "end_time": "17:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-18",
+          "slots": ["09:00-09:30", "10:00-10:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D005",
+      "name": "Dr. Sarah Davis",
+      "specialization": "Dermatology",
+      "schedule": [
+        {
+          "day": "Friday",
+          "start_time": "10:00",
+          "end_time": "18:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-19",
+          "slots": ["10:00-10:30", "11:00-11:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D006",
+      "name": "Dr. David Wilson",
+      "specialization": "Gastroenterology",
+      "schedule": [
+        {
+          "day": "Monday",
+          "start_time": "08:00",
+          "end_time": "16:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-22",
+          "slots": ["08:00-08:30", "09:00-09:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D007",
+      "name": "Dr. Laura Martinez",
+      "specialization": "Ophthalmology",
+      "schedule": [
+        {
+          "day": "Tuesday",
+          "start_time": "09:00",
+          "end_time": "17:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-23",
+          "slots": ["09:00-09:30", "10:00-10:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D008",
+      "name": "Dr. Robert Anderson",
+      "specialization": "Psychiatry",
+      "schedule": [
+        {
+          "day": "Wednesday",
+          "start_time": "10:00",
+          "end_time": "18:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-24",
+          "slots": ["10:00-10:30", "11:00-11:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D009",
+      "name": "Dr. Linda Thomas",
+      "specialization": "Endocrinology",
+      "schedule": [
+        {
+          "day": "Thursday",
+          "start_time": "08:00",
+          "end_time": "16:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-25",
+          "slots": ["08:00-08:30", "09:00-09:30"]
+        }
+      ]
+    },
+    {
+      "doctor_id": "D010",
+      "name": "Dr. James Jackson",
+      "specialization": "Rheumatology",
+      "schedule": [
+        {
+          "day": "Friday",
+          "start_time": "09:00",
+          "end_time": "17:00"
+        }
+      ],
+      "available_slots": [
+        {
+          "date": "2025-02-26",
+          "slots": ["09:00-09:30", "10:00-10:30"]
+        }
+      ]
     }
   ],
   "appointment_booking": [
@@ -42,5 +205,67 @@
       "service_type": "Consultation",
       "status": "confirmed"
     }
-  ]
+  ],
+  "clinic_locations": [
+  {
+    "clinic_id": "C001",
+    "name": "Downtown Clinic",
+    "address": "123 Main St, Downtown",
+    "phone": "+1234567891"
+  },
+  {
+    "clinic_id": "C002",
+    "name": "Uptown Clinic",
+    "address": "456 Elm St, Uptown",
+    "phone": "+1234567892"
+  },
+  {
+    "clinic_id": "C003",
+    "name": "Suburban Clinic",
+    "address": "789 Oak St, Suburbia",
+    "phone": "+1234567893"
+  },
+  {
+    "clinic_id": "C004",
+    "name": "Eastside Clinic",
+    "address": "101 Pine St, Eastside",
+    "phone": "+1234567894"
+  },
+  {
+    "clinic_id": "C005",
+    "name": "Westside Clinic",
+    "address": "202 Maple St, Westside",
+    "phone": "+1234567895"
+  },
+  {
+    "clinic_id": "C006",
+    "name": "Northside Clinic",
+    "address": "303 Birch St, Northside",
+    "phone": "+1234567896"
+  },
+  {
+    "clinic_id": "C007",
+    "name": "Southside Clinic",
+    "address": "404 Cedar St, Southside",
+    "phone": "+1234567897"
+  },
+  {
+    "clinic_id": "C008",
+    "name": "Central Clinic",
+    "address": "505 Spruce St, Central",
+    "phone": "+1234567898"
+  },
+  {
+    "clinic_id": "C009",
+    "name": "Lakeside Clinic",
+    "address": "606 Willow St, Lakeside",
+    "phone": "+1234567899"
+  },
+  {
+    "clinic_id": "C010",
+    "name": "Hillside Clinic",
+    "address": "707 Aspen St, Hillside",
+    "phone": "+1234567800"
+  }
+]
 }
